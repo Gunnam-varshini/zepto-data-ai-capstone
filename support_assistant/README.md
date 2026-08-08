@@ -125,3 +125,7 @@ Response:
   a free CPU Space, with `GROQ_API_KEY` stored as a Space secret (never
   hardcoded). Not attempted in this submission — the required baseline
   (local `docker build` + `docker run`) is what's graded.
+
+## Verification
+Ran locally with the default MOCK_LLM setting; confirmed the /ask responses
+match the two example calls documented above.
